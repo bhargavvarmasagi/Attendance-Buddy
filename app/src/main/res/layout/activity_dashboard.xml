@@ -52,11 +52,10 @@
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
         android:text="Submit Attendance"
-        app:layout_constraintTop_toBottomOf="@+id/etTeacherComments"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTeacherComments" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
