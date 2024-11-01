@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AttendanceBuddy"
         tools:targetApi="31">
         <activity
+            android:name=".AttendanceMarkingActivity"
+            android:exported="false" />
+        <activity
             android:name=".DashboardActivity"
             android:exported="false" />
         <activity
