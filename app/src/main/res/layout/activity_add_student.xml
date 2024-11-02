@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addStudent">
+
+    <EditText
+        android:id="@+id/fnmeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:hint="Enter First Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#F3F1F1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/lstnmeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#F3EFEF"
+        app:layout_constraintTop_toBottomOf="@+id/fnmeET"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/phNoET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Enter Mobile Number"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#FAF7F7"
+        app:layout_constraintTop_toBottomOf="@+id/lstnmeET"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/addrsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Enter Address"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#FAF6F6"
+        app:layout_constraintTop_toBottomOf="@+id/phNoET"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/branchET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Enter Branch"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#F1EEEE"
+        app:layout_constraintTop_toBottomOf="@+id/addrsET"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/SaveBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Save"
+        app:layout_constraintTop_toBottomOf="@+id/branchET"
+        tools:layout_editor_absoluteX="171dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
