@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addFaculty">
+
+    <EditText
+        android:id="@+id/firstnameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:hint="Enter First Name"
+        android:inputType="text"
+        android:textColorHint="#FAF7F7"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <EditText
+        android:id="@+id/lastnameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        android:textColorHint="#F6F2F2"
+        app:layout_constraintTop_toBottomOf="@+id/firstnameET"
+        tools:layout_editor_absoluteX="-6dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Mobile No:"
+        android:inputType="text"
+        android:textColorHint="#F1ECEC"
+        app:layout_constraintTop_toBottomOf="@+id/lastnameET"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/usernmeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColorHint="#F6F5F5"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/passwdET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Password:"
+        android:inputType="text"
+        android:textColorHint="#EFECEC"
+        app:layout_constraintTop_toBottomOf="@+id/usernmeET"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/SaveBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:text="SAVE"
+        app:layout_constraintTop_toBottomOf="@+id/passwdET"
+        tools:layout_editor_absoluteX="162dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
