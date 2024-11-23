@@ -39,9 +39,9 @@ Attendance Buddy is an Android application that manages faculty and student data
 - **Description:** 
   - Provides navigation buttons to the following screens:
     - Add Faculty
-    - Add Students (not implemented)
+    - Add Students
     - View Students
-    - View Faculty (not implemented)
+    - View Faculty
     - Logout
 
 ### Add Faculty Screen
@@ -62,4 +62,4 @@ Attendance Buddy is an Android application that manages faculty and student data
 ### Development Setup
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone (https://github.com/bhargavvarmasagi/Attendance-Buddy.git)
