@@ -3,7 +3,7 @@
 ### Team Members:
 * Viplav Billa
 * Bhargav Varma Sagi
-* Priyanka Bolem
+* Priyanka Bolem -  [Github Link](https://github.com/priyankabolem)
 * Piyush Jain
 
 ## Application Information
