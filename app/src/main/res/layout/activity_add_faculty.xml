@@ -14,6 +14,7 @@
         android:ems="10"
         android:hint="Enter First Name"
         android:inputType="text"
+        android:minHeight="48dp"
         android:textColorHint="#FAF7F7"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-16dp" />
@@ -26,6 +27,7 @@
         android:ems="10"
         android:hint="Enter Last Name"
         android:inputType="text"
+        android:minHeight="48dp"
         android:textColorHint="#F6F2F2"
         app:layout_constraintTop_toBottomOf="@+id/firstnameET"
         tools:layout_editor_absoluteX="-6dp" />
@@ -38,6 +40,7 @@
         android:ems="10"
         android:hint="Mobile No:"
         android:inputType="text"
+        android:minHeight="48dp"
         android:textColorHint="#F1ECEC"
         app:layout_constraintTop_toBottomOf="@+id/lastnameET"
         tools:layout_editor_absoluteX="0dp" />
@@ -50,6 +53,7 @@
         android:ems="10"
         android:hint="Username"
         android:inputType="text"
+        android:minHeight="48dp"
         android:textColorHint="#F6F5F5"
         app:layout_constraintTop_toBottomOf="@+id/editTextText3"
         tools:layout_editor_absoluteX="0dp" />
@@ -62,6 +66,7 @@
         android:ems="10"
         android:hint="Password:"
         android:inputType="text"
+        android:minHeight="48dp"
         android:textColorHint="#EFECEC"
         app:layout_constraintTop_toBottomOf="@+id/usernmeET"
         tools:layout_editor_absoluteX="0dp" />
