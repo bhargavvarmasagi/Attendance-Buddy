@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".addFaculty">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="450dp"
+        android:layout_height="805dp"
+        app:srcCompat="@drawable/image1"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-3dp"
+        tools:ignore="MissingConstraints" />
+
     <EditText
         android:id="@+id/firstnameET"
         android:layout_width="match_parent"
