@@ -1,4 +1,4 @@
-package com.android.attendance.activity;
+package com.example.attendance_buddy.activity;
 
 import com.android.attendance.bean.StudentBean;
 import com.android.attendance.db.DBAdapter;
@@ -20,9 +20,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
 public class AddStudentActivity extends Activity {
-
     Button registerButton;
     EditText textFirstName;
     EditText textLastName;
@@ -131,10 +129,10 @@ public class AddStudentActivity extends Activity {
                     studentBean.setStudent_department(branch);
                     studentBean.setStudent_class(year);
 
-                    DBAdapter dbAdapter= new DBAdapter(AddStudentActivity.this);
+                    DBAdapter dbAdapter= new DBAdapter(com.android.attendance.activity.AddStudentActivity.this);
                     dbAdapter.addStudent(studentBean);
 
-                    Intent intent =new Intent(AddStudentActivity.this,MenuActivity.class);
+                    Intent intent =new Intent(com.android.attendance.activity.AddStudentActivity.this,MenuActivity.class);
                     startActivity(intent);
                     Toast.makeText(getApplicationContext(), "student added successfully", Toast.LENGTH_SHORT).show();
 

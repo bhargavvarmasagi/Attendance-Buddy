@@ -1,4 +1,5 @@
-package com.example.attendance_buddy;
+package com.example.attendance_buddy.activity;
+
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -31,6 +32,7 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 public class AddAttendanceSessionActivity<AddAttandanceActivity> extends Activity {
     private ImageButton date;

@@ -1,4 +1,4 @@
-package com.android.attendance.activity;
+package com.example.attendance_buddy.activity;
 
 import com.android.attendance.bean.FacultyBean;
 import com.android.attendance.db.DBAdapter;
@@ -15,9 +15,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
-
 public class AddFacultyActivity extends Activity {
-
     Button registerButton;
     EditText textFirstName;
     EditText textLastName;
@@ -84,10 +82,10 @@ public class AddFacultyActivity extends Activity {
                     facultyBean.setFaculty_username(userName);
                     facultyBean.setFaculty_password(passWord);
 
-                    DBAdapter dbAdapter = new DBAdapter(AddFacultyActivity.this);
+                    DBAdapter dbAdapter = new DBAdapter(com.android.attendance.activity.AddFacultyActivity.this);
                     dbAdapter.addFaculty(facultyBean);
 
-                    Intent intent =new Intent(AddFacultyActivity.this,MenuActivity.class);
+                    Intent intent =new Intent(com.android.attendance.activity.AddFacultyActivity.this,MenuActivity.class);
                     startActivity(intent);
                     Toast.makeText(getApplicationContext(), "Faculty added successfully", Toast.LENGTH_SHORT).show();
 

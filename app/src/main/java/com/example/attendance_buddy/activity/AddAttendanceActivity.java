@@ -1,4 +1,4 @@
-package com.android.attendance.activity;
+package com.example.attendance_buddy.activity;
 
 import java.util.ArrayList;
 
@@ -26,8 +26,8 @@ import com.android.attendance.context.ApplicationContext;
 import com.android.attendance.db.DBAdapter;
 import com.example.androidattendancesystem.R;
 
-public class AddAttendanceActivity extends Activity {
 
+public class AddAttendanceActivity  extends Activity  {
     ArrayList<StudentBean> studentBeanList;
     private ListView listView ;
     private ArrayAdapter<String> listAdapter;
@@ -47,7 +47,7 @@ public class AddAttendanceActivity extends Activity {
         listView=(ListView)findViewById(R.id.listview);
         final ArrayList<String> studentList = new ArrayList<String>();
 
-        studentBeanList=((ApplicationContext)AddAttendanceActivity.this.getApplicationContext()).getStudentBeanList();
+        studentBeanList=((ApplicationContext) com.android.attendance.activity.AddAttendanceActivity.this.getApplicationContext()).getStudentBeanList();
 
 
         for(StudentBean studentBean : studentBeanList)
@@ -72,7 +72,7 @@ public class AddAttendanceActivity extends Activity {
                 //arg0.setBackgroundColor(234567);
                 arg1.setBackgroundColor(334455);
                 final StudentBean studentBean = studentBeanList.get(arg2);
-                final Dialog dialog = new Dialog(AddAttendanceActivity.this);
+                final Dialog dialog = new Dialog(com.android.attendance.activity.AddAttendanceActivity.this);
                 dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);//...........
                 dialog.setContentView(R.layout.test_layout);
                 // set title and cancelable
@@ -108,7 +108,7 @@ public class AddAttendanceActivity extends Activity {
                         attendanceBean.setAttendance_student_id(studentBean.getStudent_id());
                         attendanceBean.setAttendance_status(status);
 
-                        DBAdapter dbAdapter = new DBAdapter(AddAttendanceActivity.this);
+                        DBAdapter dbAdapter = new DBAdapter(com.android.attendance.activity.AddAttendanceActivity.this);
                         dbAdapter.addNewAttendance(attendanceBean);
 
                         dialog.dismiss();
