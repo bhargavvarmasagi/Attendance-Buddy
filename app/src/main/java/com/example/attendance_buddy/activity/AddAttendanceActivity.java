@@ -20,10 +20,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
-import com.android.attendance.bean.AttendanceBean;
-import com.android.attendance.bean.StudentBean;
-import com.android.attendance.context.ApplicationContext;
-import com.android.attendance.db.DBAdapter;
+import com.example.attendance_buddy.bean.AttendanceBean;
+import com.example.attendance_buddy.bean.StudentBean;
+import com.example.attendance_buddy.context.ApplicationContext;
+import com.example.attendance_buddy.db.DBAdapter;
 import com.example.androidattendancesystem.R;
 
 

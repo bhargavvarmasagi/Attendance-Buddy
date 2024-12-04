@@ -1,7 +1,7 @@
 package com.example.attendance_buddy.activity;
 
-import com.android.attendance.bean.StudentBean;
-import com.android.attendance.db.DBAdapter;
+import com.example.attendance_buddy.bean.StudentBean;
+import com.example.attendance_buddy.db.DBAdapter;
 import com.example.androidattendancesystem.R;
 
 import android.app.Activity;

@@ -17,9 +17,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.attendance.bean.FacultyBean;
-import com.android.attendance.context.ApplicationContext;
-import com.android.attendance.db.DBAdapter;
+import com.example.attendance_buddy.bean.FacultyBean;
+import com.example.attendance_buddy.context.ApplicationContext;
+import com.example.attendance_buddy.db.DBAdapter;
 import com.example.androidattendancesystem.R;
 
 public class LoginActivity extends Activity {
