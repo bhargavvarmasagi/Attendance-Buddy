@@ -14,7 +14,9 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-public class MenuActivity extends Activity  {
+
+public class MenuActivity extends Activity {
+
     Button addStudent;
     Button addFaculty;
     Button viewStudent;

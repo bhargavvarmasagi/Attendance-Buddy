@@ -21,7 +21,9 @@ import com.android.attendance.bean.FacultyBean;
 import com.android.attendance.context.ApplicationContext;
 import com.android.attendance.db.DBAdapter;
 import com.example.androidattendancesystem.R;
+
 public class LoginActivity extends Activity {
+
     Button login;
     EditText username,password;
     Spinner spinnerloginas;
