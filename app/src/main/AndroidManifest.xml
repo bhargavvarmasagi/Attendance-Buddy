@@ -16,7 +16,7 @@
             android:name=".viewStudent"
             android:exported="false" />
         <activity
-            android:name=".AddAttandanceSessionActivity"
+            android:name=".activity.AddAttendanceActivity"
             android:exported="false" />
         <activity
             android:name=".AddAttendanceSessionActivity"
