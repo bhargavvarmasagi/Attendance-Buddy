@@ -2,9 +2,9 @@ package com.example.attendance_buddy.activity;
 
 import java.util.ArrayList;
 
-import com.android.attendance.bean.AttendanceBean;
-import com.android.attendance.context.ApplicationContext;
-import com.android.attendance.db.DBAdapter;
+import com.example.attendance_buddy.bean.AttendanceBean;
+import com.example.attendance_buddy.context.ApplicationContext;
+import com.example.attendance_buddy.db.DBAdapter;
 import com.example.androidattendancesystem.R;
 
 import android.os.Bundle;
