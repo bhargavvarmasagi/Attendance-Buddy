@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AttendanceBuddy" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/main2</item>
+        <item name="colorPrimaryVariant">@color/main2</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- secondary brand color. -->
+        <item name="colorSecondary">@color/main2</item>
+        <item name="colorSecondaryVariant">@color/main2</item>
+        <item name="colorOnSecondary">@color/main2</item>
+
+        <!-- Status bar color. -->
+
+        <item name="android:statusBarColor">@color/main2</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+    <style name="Theme.AttendanceBuddy" parent="Base.Theme.AttendanceBuddy" />
+</resources>

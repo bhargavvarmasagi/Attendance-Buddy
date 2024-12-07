@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820706716506",
+    "project_id": "attendancebuddy-bc501",
+    "storage_bucket": "attendancebuddy-bc501.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820706716506:android:14b77f448af71a976f2163",
+        "android_client_info": {
+          "package_name": "com.example.attendance_buddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfndFgwGOo7PNcYA5vOu6XKTJ9ILp_PJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

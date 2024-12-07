@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,40 +15,22 @@
         android:theme="@style/Theme.AttendanceBuddy"
         tools:targetApi="31">
         <activity
-            android:name=".MenuActivity"
+            android:name=".ViewSession"
             android:exported="false" />
         <activity
-            android:name=".viewStudent"
+            android:name=".EditSessionStudents"
             android:exported="false" />
         <activity
-            android:name=".activity.AddAttendanceActivity"
+            android:name=".SessionEditor"
             android:exported="false" />
         <activity
-            android:name=".AddAttendanceSessionActivity"
+            android:name=".ShowSessions"
             android:exported="false" />
         <activity
-            android:name=".viewFaculty"
+            android:name=".StudentEditor"
             android:exported="false" />
         <activity
-            android:name=".addFaculty"
-            android:exported="false" />
-        <activity
-            android:name=".addStudent"
-            android:exported="false" />
-        <activity
-            android:name=".index"
-            android:exported="false" />
-        <activity
-            android:name=".login"
-            android:exported="false" />
-        <activity
-            android:name=".AttendanceMarkingActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DashboardActivity"
-            android:exported="false" />
-        <activity
-            android:name=".introActivity"
+            android:name=".ClassEditor"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

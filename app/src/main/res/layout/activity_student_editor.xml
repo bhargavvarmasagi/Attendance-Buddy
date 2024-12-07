@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".StudentEditor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Editor"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@drawable/grey_background"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:hint="ID"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@drawable/grey_background"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:hint="First Name"
+            android:inputType="text"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@drawable/grey_background"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@drawable/grey_background"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@drawable/grey_background"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:hint="Tel"
+            android:inputType="text"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/box_background"/>
+
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Student"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/main2"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

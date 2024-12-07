@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ClassEditor">
+
+    <EditText
+        android:id="@+id/class_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Class Name"
+        android:textColorHint="@color/white"
+        android:background="@color/transparent"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="65dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="25dp">
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add_students"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Add Students"
+                android:textSize="22dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/box_background"/>
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textSize="22dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/box_background"/>
+
+            <Button
+                android:id="@+id/create"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:textSize="22dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/box_background"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:divider="@color/transparent"
+            android:dividerHeight="15dp"
+            android:listSelector="@color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/bottom"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
