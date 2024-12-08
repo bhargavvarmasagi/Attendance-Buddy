@@ -3,7 +3,7 @@
 ### Team Members:
 * Viplav Billa
 * Bhargav Varma Sagi
-* Priyanka Bolem -  [Github Link](https://github.com/priyankabolem)
+* Priyanka Bolem 
 * Piyush Jain
 
 ## Application Information
@@ -22,7 +22,7 @@ Attendance Buddy is an Android application that manages faculty and student data
 
 ## Sequence Information
 
-### Start Screen
+### Attendance Records Maintenance
 - **File:** `MainActivity.java`
 - **Layout:** `activity_main.xml`
 - **Description:** The start button navigates the user to the Login screen.
@@ -39,7 +39,7 @@ Attendance Buddy is an Android application that manages faculty and student data
   - Edit existing sessions or delete them as needed.
   - View session attendance, differentiating between present and absent students.
 
-### View Students Screen
+### View Sessions Screen
 - **File:** `ShowSessions.java`
 - **Layout:** `activity_show_sessions.xml`
 - **Description:** 
