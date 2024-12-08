@@ -72,6 +72,9 @@ Attendance Buddy is an Android application that manages faculty and student data
 ## Future Scope
 Adding location-based attendance tracking. GAT uses User's GPS to retrieve user's current location and based on the distance between the institution and user's current location, it decides whether the user is in class or not and marks the attendance accordingly.
 
+## Running the app
+When you launch the Attendance Buddy app, you begin at the Welcome Page, where you can create classes. Once a class is saved, it appears in the class list. By clicking on a class name, you can view the list of students in that class, with an option to add more students. After adding students, you can proceed to the Session Editor to create attendance sessions. Finally, the Sessions List provides an overview of all sessions for a class, showing details of students marked as Present or Absent for each session.
+
 ### Development Setup
 1. Clone the repository:
    ```bash
