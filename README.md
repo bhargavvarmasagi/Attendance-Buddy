@@ -22,10 +22,15 @@ Attendance Buddy is an Android application that manages faculty and student data
 
 ## Sequence Information
 
+### Login Page
+- **File:** `LoginActivity.java`
+- **Layout:** `activity_login.xml`
+- **Description:** The login page of Attendance Buddy provides secure access to the app's features.
+- 
 ### Attendance Records Maintenance
 - **File:** `MainActivity.java`
 - **Layout:** `activity_main.xml`
-- **Description:** The start button navigates the user to the Login screen.
+- **Description:** It allows us to create classes to add student into it.
 
 ### Handler Screen
 - **File:** `Class.java`
