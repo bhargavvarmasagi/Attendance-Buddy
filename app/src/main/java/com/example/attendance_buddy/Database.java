@@ -9,6 +9,8 @@ import java.util.ArrayList;
 public class Database {
     private String url = "jdbc:mysql://192.168.2.199/admin";
     private String user = "admin";
+    //DiWBhVy1XbDG.w4S
+    //7ObKupK87kLFsZWK
     private String pass = "7ObKupK87kLFsZWK";
     private Statement statement;
 
